@@ -1,0 +1,54 @@
+package oops;
+class employeedata{
+	String name;
+	String id;
+	String company;
+	String domain;
+	String adress;
+	String role;
+    String salary;
+
+void getData() {
+	name="Narendra";
+	id="123456789";
+	company="Deloitte";
+	domain="java";
+	adress="hyderabad";
+	role="doveloper";
+	salary="150000";
+}
+	
+void show() {
+	System.out.println("Name :"+ name +"\n"+ "Id :"+ id +"\n"+"Company :"+ company +"\n"+"Domain :"+ domain +"\n"+"Salary :"+ salary +"\n"+"Adress" +adress+"\n"+"Role :"+role+"\n" );
+}
+}
+	
+
+
+
+
+
+
+public class Employeedata {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Employeedata d=new Employeedata();
+d.getData();
+d.show();
+
+
+	}
+
+	private void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void getData() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

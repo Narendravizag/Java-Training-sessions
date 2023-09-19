@@ -1,0 +1,30 @@
+
+package oops;
+import java.util.Scanner;
+class factorial{
+	int number;
+
+	void narendra() {
+		number=67;
+	}
+		void show(){
+			int f=1;
+			for ( int i =1 ;i<=number; i++)
+			f =number * i;
+			System.out.println("factorial of  :" +number+ "="+f);
+			
+		}	
+}
+
+
+public class factorials {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		factorial f1=new factorial();
+		f1.narendra();
+		f1.show();
+
+	}
+
+}

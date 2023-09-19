@@ -1,0 +1,52 @@
+package oops;
+class bankdetail{
+	String accountno;
+	String name;
+	String ifsc;
+	String phonenumber;
+	String pincode;
+	String balence;
+	
+	void getData() {
+		name="narendra";
+		accountno="1234567890";
+		ifsc="sbin0001234";
+		phonenumber="8125125242";
+		pincode="123456";
+		balence="800000";
+	}
+	void show() {
+		System.out.println("Name :"+ name +"\n"+ "Accountno :"+ accountno +"\n"+"Ifsc :"+ ifsc +"\n"+"Pincode :"+ pincode +"\n"+"Balence :"+ balence +"\n"+"Phonenumber" +phonenumber+"\n" );
+	}
+	
+	
+	
+}
+ 
+
+
+
+
+public class bankdetails {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		bankdetails n=new bankdetails();
+		n.getData();
+		n.show();
+		
+		
+
+	}
+
+	private void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void getData() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
